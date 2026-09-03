@@ -23,5 +23,4 @@ simulation.
 - Short codes are 6 characters, checked for collisions on creation.
 - There's no login/auth on the "create link" endpoint — fine for personal,
   low-traffic use, but anyone who finds your Worker URL could create links.
-  If that matters to you, ask Claude to add a simple shared-secret check.
 - Free tier covers 100,000 requests/day — far beyond low-traffic personal use.
