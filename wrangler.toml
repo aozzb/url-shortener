@@ -1,0 +1,9 @@
+name = "url-shortener"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+
+# After you create your KV namespace (Step 4 in the guide), replace the id
+# below with the one Cloudflare gives you.
+kv_namespaces = [
+  { binding = "LINKS", id = "9b69112a648d4ca4a5baab88bdb4ec7e" }
+]
